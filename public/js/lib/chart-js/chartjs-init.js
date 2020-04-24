@@ -7,12 +7,12 @@
 	var myChart = new Chart( ctx, {
 		type: 'line',
 		data: {
-			labels: [ "2010", "2011", "2012", "2013", "2014", "2015", "2016" ],
+			labels: [ "01", "02", "03", "04", "05", "06", "07","08","09","10","11","12" ],
 			type: 'line',
 			defaultFontFamily: 'Montserrat',
 			datasets: [ {
-				data: [ 0, 7, 3, 5, 2, 10, 7 ],
-				label: "Expense",
+				data: [ 0, 7, 3, 5, 2, 10, 7,9,4,5 ],
+				label: "Ganhos Totais",
 				backgroundColor: 'rgba(0,103,255,.15)',
 				borderColor: 'rgba(0,103,255,0.5)',
 				borderWidth: 3.5,
@@ -65,7 +65,7 @@
 					},
 					scaleLabel: {
 						display: true,
-						labelString: 'Value'
+						labelString: 'X 1000'
 					}
                         } ]
 			},
@@ -82,11 +82,11 @@
 	var myChart = new Chart( ctx, {
 		type: 'line',
 		data: {
-			labels: [ "2010", "2011", "2012", "2013", "2014", "2015", "2016" ],
+			labels: [ "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ],
 			type: 'line',
 			defaultFontFamily: 'Montserrat',
 			datasets: [ {
-				label: "Foods",
+				label: "Orçamentos",
 				data: [ 0, 30, 10, 120, 50, 63, 10 ],
 				backgroundColor: 'transparent',
 				borderColor: 'rgba(220,53,69,0.75)',
@@ -96,8 +96,8 @@
 				pointBorderColor: 'transparent',
 				pointBackgroundColor: 'rgba(220,53,69,0.75)',
                     }, {
-				label: "Electronics",
-				data: [ 0, 50, 40, 80, 40, 79, 120 ],
+				label: "Trabalhos",
+				data: [ 0, 50, 40, 80, 40, 79, 100 ],
 				backgroundColor: 'transparent',
 				borderColor: 'rgba(40,167,69,0.75)',
 				borderWidth: 3,
@@ -148,7 +148,7 @@
 					},
 					scaleLabel: {
 						display: true,
-						labelString: 'Value'
+						labelString: 'Qt. mês'
 					}
                         } ]
 			},

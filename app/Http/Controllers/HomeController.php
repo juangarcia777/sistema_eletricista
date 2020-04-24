@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Orcamento;
+use App\Agenda;
+use App\Servico;
+use App\Lancamento;
 
 class HomeController extends Controller
 {
@@ -21,8 +25,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
+        $data= 0;
         return view('home');
     }
 }

@@ -13,8 +13,8 @@
 
 
 -- Copiando estrutura do banco de dados para sistema_eletrica
-CREATE DATABASE IF NOT EXISTS `sistema_eletrica` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `sistema_eletrica`;
+CREATE DATABASE IF NOT EXISTS `sistema.garcia` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `sistema.garcia`;
 
 -- Copiando estrutura para tabela sistema_eletrica.agendas
 CREATE TABLE IF NOT EXISTS `agendas` (

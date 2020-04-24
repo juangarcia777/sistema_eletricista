@@ -11,16 +11,18 @@
     <meta name = "csrf-token" content = "{{csrf_token ()}}">
 
     <!--<base href="http://127.0.0.1:8000/">-->
-    <base href="http://192.168.1.6/sistema_eletrica/public/">
+    <base href="http://192.168.0.161/sistema_eletrica/public/">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <title>SISTEMA | GARCIA</title>
     
     <link href="css/lib/sweetalert/sweetalert.css" rel="stylesheet">
     <link href="css/lib/toastr/toastr.min.css" rel="stylesheet">
+    
     <!-- Custom CSS -->
           <link href="css/style.css" rel="stylesheet">
           <link href="css/custom.css" rel="stylesheet">
+          
 </head>
 
 <body class="header-fix fix-sidebar">

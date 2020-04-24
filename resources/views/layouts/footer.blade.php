@@ -33,6 +33,7 @@
 <script src="js/lib/chart-js/Chart.bundle.js"></script>
 <script src="js/lib/chart-js/chartjs-init.js"></script>
 
+
 <!--ALERTS-->
 <script src="js/lib/sweetalert/sweetalert.min.js"></script>
 <script src="js/lib/sweetalert/sweetalert.init.js"></script>
